@@ -1,0 +1,127 @@
+@import url("https://bootswatch.com/flatly/bootstrap.min.css");
+
+body {
+  padding-top: 50px;
+}
+footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 768px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+    background:white;
+  }
+
+  .navbar-brand {
+    text-align: justify !important;
+    width: 100% !important;
+    margin-left: -15px;
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -40%;
+  }
+
+  .row-offcanvas-left.active {
+    left: 40%;
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 40%;
+    margin-left: -100px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+}
+
+#sidebar {
+    padding:25px;
+    margin-top:-50px;
+    padding-left:34px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 22px;
+    color: black !important;
+    background-color: white;
+}
+
+.sidebar-nav li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.sidebar-nav li a:hover {
+  color: #4d4d4d;
+  text-decoration: none;
+  background-color: white;
+}
+
+@media (min-width: 768px) {
+   .navbar-nav {
+        display: none!important;
+    }
+}
+
+.navbar {
+    background-color: transparent;
+    border-width:0;
+}
+
+.navbar-brand {
+    position: relative;
+    width: 90%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 70px;
+    font-size: 70px;
+    font-weight: 900;
+    color: black !important;
+    text-align: center;
+    margin-top: -148px;
+    height:auto;
+    line-height:70px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.container {
+    padding-top: 169px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    width: 90%;
+}
+
+.barcode{
+    white-space:pre; /* or pre-wrap if you want wrapping to still work. */
+}
+
+.navbar-collapse {
+    color: black;
+    background-color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    width: 30%;
+    border-width:0;
+    padding-top:5px;
+    font-size:17px;
+}
+
+.navbar-header {
+    padding: 5px;
+}
+
+.break-text p {
+  word-wrap: break-word;
+}
